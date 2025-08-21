@@ -161,7 +161,7 @@ void setRAPIDSymbolData(RWSClient& client, const RAPIDResource& resource, const 
  * \throw \a std::exception if something goes wrong.
  */
 void loadModuleIntoTask(RWSClient& client, const std::string& task, const FileResource& resource,
-                        const bool replace = false, Mastership const& mastership = Mastership::Explicit);
+                        const bool replace = false, Mastership const& mastership = Mastership::Implicit);
 
 /**
  * \brief A function for unloading a module to the robot controller.
