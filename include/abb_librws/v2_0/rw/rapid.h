@@ -66,7 +66,7 @@ void stopRAPIDExecution(RWSClient& client, StopMode stopmode = StopMode::stop, U
  *
  * \throw \a std::runtime_error if something goes wrong.
  */
-void resetRAPIDProgramPointer(RWSClient& client, Mastership const& mastership = Mastership::Explicit);
+void resetRAPIDProgramPointer(RWSClient& client, Mastership const& mastership = Mastership::Implicit);
 
 /**
  * \brief A function for retrieving information about the RAPID modules of a RAPID task defined in the robot controller.
